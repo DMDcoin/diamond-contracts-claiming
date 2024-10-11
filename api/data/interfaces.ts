@@ -7,6 +7,7 @@ export interface BalanceV3 {
 export interface ClaimingBalance extends BalanceV3 {
     dmdv4Address: string;
     signature: string;
+    postfix?: string;
 }
 
 export interface ClaimingDataSet {

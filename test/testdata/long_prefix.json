@@ -1,0 +1,145 @@
+{
+    "messagePrefix": "i want to claim to an addres, and my the configured claiming message has an incredible long prefix that needs to get testet as well in unit tests, so we know that even very long claiming message to not introduce problems, be it as part of the signing process with the old v3 wallet, or within the claiming contracts. this message should be long enough now to cover the planned message prefix on the final network, therefore i want to claim my coins to the address: ",
+    "balances": [
+      {
+        "dmdv3Address": "dFuBsnp3j5r9h8EQUA7jCU7L5XCNGHK4H8",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "ICckxlJYpOujJ2KgcFjPhGDHocB18IGv5Wybhcl6YvHjZlOwGdibWjZXJCtCsc7Qew/r4BNAXLrU37cx7DNGEaM=",
+        "postfix": " -0"
+      },
+      {
+        "dmdv3Address": "dcH1w66amSzQHpR7RTUTmH5xfNTf1zbZDn",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IFoOvJU5kQZbGHMnmLPNZJmYYvCrFT2j7Uyk93Mi+223azq/WiWXcsm5x9iv4asz5Z5tYHFh9k4WDqTeGXF/hS0=",
+        "postfix": " -1"
+      },
+      {
+        "dmdv3Address": "dFcRF9avhHJJyP2L35XKjbi9mRp8sp72pW",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IIrSnEwj+Ni07CchctUVphDkApk83/qsZOYegI3WvsBWPGtoPRvz/Rnt1Ry6bwIcrlcIe+7IqSjetr3YxVRb9EE=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "dUCT6Nt7LvcCW5LsCxe2ARfp5C7frduHPQ",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IEmJbkfdbrMP73dKnHf8mTWRjWAQ/HA20CW3lPuWF4N3P4rUx5D2jBacXL4PFCQF7WmzkWmwVxdR5hPwiOzA9sU=",
+        "postfix": " -3"
+      },
+      {
+        "dmdv3Address": "dVnpCAhGfLeyG5ASRqoGJU6EDcKnBDtbWj",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "II/1Y7fVOzIUnLiVKVRZD1tCx1U0DOd+BtCrZ9wAlmxTWIZca4rqZTaMqzUNuJT/SxThUi2osE/53yf5v29bRO4=",
+        "postfix": " -4"
+      },
+      {
+        "dmdv3Address": "dU7SVJ5GgSmKAmkojpvxYH9kSiE1psZEHT",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IOZl8j6F4MCY6RsHQebkwtfNt58eKC4IWzCMUfdCjVVFNo+ktE/GSFhK2l/xrwielEyMrB0tH8KUiUBBLZraCb4=",
+        "postfix": " -5"
+      },
+      {
+        "dmdv3Address": "dJWZcMoEp9i8WQZbvQhUJ1aXCCsJgjDmgL",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IGuKwYHNHbJftvKls31Ibgv1p8MklRUy3a1EW446q271IvgijlptWiszNTYriprRmIoq7PnL/V0aKWi7V518k6Y=",
+        "postfix": " -6"
+      },
+      {
+        "dmdv3Address": "daWNfrxCEwyyQymqh3xRrY5TfhWHZjvfDT",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IKO5brGXieBtdBg85gvVjNhpFG6VSWTtdN6lSboH9pScQrTCqzsf2d5Fe08zdDZGISjc88IIutNFME2dXL4WM/U=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "dWkHc88d2EePHhDMAk5MnyEaRF47T13Yg1",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IDfNgmm1dXQiUC1RxEsVMfmatx0F7Ursh1Cl4WP5IyhHcTABcPi2+FlW926gmzFu7TkjW+zJtxg1MM2hA54kqAM=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "dXUgueHvZfBmtobPED5y7jNbt6KuWGsGE8",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IGWyjCPu6wErwN2wYSkJ5ZSUQG++Kp+dXG2kTZlSy3JSYbGO0O2IayOv5LAByFLu759oi80v1VnWPzJl0Kz2sAg=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "dLkqngo9YzVkJuqcJ1DkyCDZTjh2yXVS7N",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IH+h9RrIqhUOUojqIj0Z/UAanjX8mDG51WHOZ0bQRFWjS2h/hN2WAflygMtYk4SLyu0Xau36vW+Kuzf2xp6u2k8=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "das98tqKdS9iEoEUj51XUSqGAVFAeT9EmX",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IDI7k16uc3/zo8QQgsLXNKB27PhJbQz2R3uXwk2xchyRPN5AkoltNnvs0gtuSByxiLglXVUSoLLAbkvb+zZd5Jw=",
+        "postfix": " -11"
+      },
+      {
+        "dmdv3Address": "dDWsSowaJNCnsgC821uJYYhLtMvCUawM12",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IK4WmfxTrgGYLkKAVo7yMuObOULdmwSQsfqWG/yaOf1BUoN/4GgPLVZ1Xnc0nfLhmpVzegHsZZo+5GlLGt/4v8M=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "dWrMwbHc2L7ba91huB5JPRUXEWz2MwrVNV",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IL6m16qb2xel+DJc0Fpta8/lf0Zz/EWmBX3mNALIwnPwBa/pl+YSDGcnMYjKvqYli43wTfn0tUgDq1aJ9SeTBiE=",
+        "postfix": " -13"
+      },
+      {
+        "dmdv3Address": "dKd4xtMPRHxG7joeFaTgAWJFv7uzt8HUXP",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IN3W7KGVlAamSYmAV8FXXF8+OaTMmnau562UOMJlW8PBCHbcF2e3/E02CwPO6L8sINIEBzbTWbNGSbLxhJXxGPM=",
+        "postfix": " -14"
+      },
+      {
+        "dmdv3Address": "dQ3tCrmqQhT7EGr8tGw9276Aioif24R44M",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IHOutk+37CZibxGq3BtNEsK65EUKRufDMbZSI8P4apchcT9wsXVIFnczwGYVZgTwFG2IvfL4qVjzWcDAJQZo9rk=",
+        "postfix": " -15"
+      },
+      {
+        "dmdv3Address": "dWwUZRoJWeXDvpNrEE98wKm3dGPBv8Qhvd",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IAuHkPxkfvnP2Rssi+gHCxck6jlI8YCNbQCc/fPnQLSuFrSZLUI9S1U/n1XsjoDUjvZUngxiRC2XEPHw25dyI2E=",
+        "postfix": ""
+      },
+      {
+        "dmdv3Address": "dEPsKw4wrgEsZEghmR2KNbpjEEAvEsYRvS",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IETjBllhKQzjjv6IcokxaQo/CZ9lUgUD7hhU+SXOWMTKaMg0qTfX/toAuRDTLzEaGEPHgJVF1u/abvx0ELHagp4=",
+        "postfix": " -17"
+      },
+      {
+        "dmdv3Address": "dbaZF6CoeW5vX6YQPFQJuNPGZUepojGQfg",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IMIoXoaMBwa0kiotWBPglrWM+RFwyv2NcKBi/Y2UvPkSMK2rQ3Mb0xM1ruaxxgEO5I3wO6jzOhTPqOEmOhnXSm0=",
+        "postfix": " -18"
+      },
+      {
+        "dmdv3Address": "dTwWDLrEf8VRSpgpENhb4DdfkNLuNandVD",
+        "dmdv4Address": "0xbb753f1126c2463Ac29e175B180dAE7F7f627fA4",
+        "value": "10000",
+        "signature": "IHaomhAdpDQL+QEWL6mXsEHHMl9tlvjpgdnNEwtUPT8wcnnO+4PLH7AN8IG4pm9mPlNrEKHa2r8kBJsyMCthwiA=",
+        "postfix": " -19"
+      }
+    ]
+  }

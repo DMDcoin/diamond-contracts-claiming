@@ -48,6 +48,18 @@ const config: HardhatUserConfig = {
       hardfork: "istanbul",
       minGasPrice: 1000000000
     },
+    alpha4: {
+      url: "http://62.171.133.46:54100",
+      accounts: {
+        count: 10,
+        path: "m/44'/60'/0'/0",
+        mnemonic
+      },
+
+      allowUnlimitedContractSize: true,
+      hardfork: "istanbul",
+      minGasPrice: 1000000000
+    },
   },
   solidity: {
     version: "0.8.26",
@@ -90,6 +102,14 @@ const config: HardhatUserConfig = {
                 browserURL: "http://62.171.133.46:4000",
             },
         },
+        {
+          network: "alpha4",
+          chainId: 777018,
+          urls: {
+              apiURL: "http://62.171.133.46:4400/api",
+              browserURL: "http://62.171.133.46:4400",
+          },
+      },
     ],
 },
 mocha: {

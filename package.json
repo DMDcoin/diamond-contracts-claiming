@@ -13,6 +13,7 @@
     "test-deploy-and-fill": "ts-node scripts/test-fill.ts",
     "test-claim": "ts-node scripts/test-claim.ts",
     "fill-alpha3": "ts-node scripts/fill-alpha3.ts",
+    "fill-alpha4": "ts-node scripts/fill-alpha4.ts",
     "solhint": "solhint 'contracts/**/*.sol'"
   },
   "repository": {

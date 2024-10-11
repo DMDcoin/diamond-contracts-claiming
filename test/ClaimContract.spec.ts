@@ -329,27 +329,13 @@ describe('ClaimContract', () => {
 
             for (const balance of balances.balances) {
                 let balanceBeforeClaim = await ethers.provider.getBalance(balance.dmdv4Address);
-                await cryptoSol.claim(balance.dmdv3Address, balance.dmdv4Address, balance.signature, "");
+                await cryptoSol.claim(balance.dmdv3Address, balance.dmdv4Address, balance.signature, balance.postfix ?? "");
                 let balanceAfterClaim = await ethers.provider.getBalance(balance.dmdv4Address);
 
                 let expectedBalance = ethers.toBigInt(balance.value) + balanceBeforeClaim;
                 expect(balanceAfterClaim).to.equal(expectedBalance, 'Balance of DMDv4 adress matches defined Balance.');
             }
         }
-
-        describe("cryptographics with defined message prefix", async function () {
-            const claimToString = stringToUTF8Hex('claim to ');
-
-            async function deployWithPrefixFixture(): Promise<{ claimContract: ClaimContract }> {
-                const claimContract = await deployClaiming(
-                    lateClaimBeneficorAddress,
-                    lateClaimBeneficorDAO,
-                    claimToString
-                );
-
-                return { claimContract };
-            }
-        });
 
         describe("balance", async function () {
 
@@ -466,6 +452,14 @@ describe('ClaimContract', () => {
                 await runAddAndClaimTests(getTestBalancesFromTestdata("known_y_00"));
             });
 
+            it("Claiming DMD with postfixes", async () => {
+                await runAddAndClaimTests(getTestBalancesFromTestdata("with_postfixes"));
+            });
+
+            it("Claiming DMD with long prefix", async () => {
+                await runAddAndClaimTests(getTestBalancesFromTestdata("long_prefix"));
+            });
+
             if (runLargeTests) {
                 it("Claiming DMD large test: balances_1k", async () => {
                     await runAddAndClaimTests(getTestBalancesFromTestdata("balances_1k"));
@@ -474,6 +468,7 @@ describe('ClaimContract', () => {
                 it("Claiming DMD large test: balances_50k", async () => {
                     await runAddAndClaimTests(getTestBalancesFromTestdata("balances_50k"));
                 }).timeout(60_000 * 60); // maximum 1 hour for this test.
+
             }
         });
 
